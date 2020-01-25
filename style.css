@@ -1,0 +1,153 @@
+/* Write some CSS below */
+
+  
+@media (min-width: 500px) {
+  .ui-list {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .ui-list {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ui-list {
+    width: 800px;
+  }
+}
+
+
+body {
+	font-family: quicksand;
+	font-weight: 500;
+	color: #222222;
+	font-size: 15px;
+	margin: 0;
+	background-color: #f8f8f8;
+}
+h1 {
+	font-family: quicksand;
+	font-weight: 100;
+}
+/*h4 {
+	font-size: 12px;
+	color: eeeeee;
+	background-color: 222222;
+	padding: 100px;
+}*/
+
+a {
+	text-decoration: none;	
+	padding: 12px 23px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	color: #222222;
+	font-size: 15px;
+}
+a:hover {
+	background-color: #222222;
+	color: #f8f8f8;
+}
+#banner {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	padding: 300px;
+	text-align: center;
+}
+#banner h1{
+	color: #ffffff;
+}
+#banner p {
+	color: #ffffff;
+	margin-bottom: 40px;
+	/*opacity: 70%;*/
+}
+/*.banner {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	padding: 300px;
+	text-align: center;
+}
+*/
+/*.banner h1 {
+	color: #ffffff;
+}*/
+
+/*.banner p {
+	color: #ffffff;
+	margin-bottom: 50px;
+	opacity: 70%;
+}*/
+
+.ui-list {
+	margin: auto;
+	width: 1300px;
+	padding-top: 60px;
+}
+.ui-list h2 {
+	font-size: 18px;
+}
+
+.cards {
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 10px;
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+    margin: 100px;
+  }
+}
+
+.card {
+	margin-top: 10px;
+	width: 400px;
+	padding: 10px;
+	margin-bottom: 80px;
+	background-color: #ffffff;
+	box-shadow: 0px 15px 15px rgba(0,0,0,0.05);
+	border-radius: 2px;
+	text-align: center;
+}
+.card:hover {
+	opacity: 60%;
+}
+.card img:hover {
+	opacity: 60%;
+}
+.card img {
+	padding-top: 5px;
+	width: 390px;
+	height: 280px;
+	object-fit: cover;
+	padding-bottom: 0px;
+}
+.card h3{
+	padding-top: 15px;
+	text-align: left;
+	padding-left: 5px;
+	margin: 0px;
+}
+.card p{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin: 0px;
+	text-align: left;
+	padding-left: 5px;
+	line-height: 1.4;
+}
+
+.footer {
+	font-size: 12px;
+	color: #eeeeee;
+	background-color: #222222;
+	padding: 30px 200px;
+}
+
+.footer h4{
+	padding-top: 100px;
+}
